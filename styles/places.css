@@ -1,0 +1,31 @@
+@media only screen and (max-width: 760px) {
+    body h1 {
+        color: yellow
+    }
+    
+    body {
+        background-color: black;
+        color: red;
+        
+    }
+
+    body > nav {
+        background-color: orange;
+    }
+
+    body > header > h1:hover {
+        text-transform: uppercase;
+    }
+
+    article > h3 {
+        font-size: medium;
+    }
+
+    #popular {
+        background-color: red;
+    }
+}
+
+nav {
+    background-color: #e3f2fd;
+}

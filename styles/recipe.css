@@ -1,0 +1,15 @@
+@media only screen and (max-width: 760px) {
+    body {
+        background-color: black;
+        color: yellow;
+        font-size: 1.5em;
+    }
+
+    body > nav {
+        background-color: orange;
+    }
+}
+
+nav {
+    background-color: #e3f2fd
+}

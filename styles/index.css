@@ -1,0 +1,21 @@
+nav {
+    background-color: #e3f2fd;
+}
+@media only screen and (max-width: 760px) {
+    body {
+        background-color: black;
+        color: yellow;
+    }
+
+    body > header > h1::after {
+        content: " For Mobile!"
+    }
+
+    body > header > h1:hover {
+        text-transform: uppercase;
+    }
+
+    body > nav {
+        background-color: orange;
+    }
+}
