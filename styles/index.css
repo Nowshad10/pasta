@@ -18,4 +18,10 @@ nav {
     body > nav {
         background-color: orange;
     }
+
+    body > article::after {
+        content: "You can't change links!"
+    }
+
+
 }
